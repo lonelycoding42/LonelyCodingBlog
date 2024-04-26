@@ -1,12 +1,16 @@
 <template>
     <div class="main">
-        <h3>This is main</h3>
+        <h3>This is main</h3> 
+        <UserInfo />
     </div>
 </template>
 
 <script>
+import UserInfo from "./UserInfo.vue";
 export default{
-
+    components:{
+       UserInfo
+    }
 }
 </script>
 
