@@ -1,15 +1,17 @@
 <template>
     <div class="main">
-        <h3>This is main</h3> 
         <UserInfo />
-    </div>
+        <MyBloglists />
+    </div>  
 </template>
 
 <script>
-import UserInfo from "./UserInfo.vue";
+import UserInfo from "../components/UserInfo.vue";
+import MyBloglists from "../components/MyBloglists.vue";
 export default{
     components:{
-       UserInfo
+        UserInfo,
+        MyBloglists 
     }
 }
 </script>
